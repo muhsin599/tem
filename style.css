@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: green;
+}
+.general-css{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:white;
+    padding: 15px;
+}
+.fahrenheit-css,.celcius-css{
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 5px;
+}
+.fahrenheit-css{
+  margin-left:10px;
+}
+button{
+  display: block;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  border-style: solid;
+  padding: 5px 10px;
+  cursor: pointer;
+}
